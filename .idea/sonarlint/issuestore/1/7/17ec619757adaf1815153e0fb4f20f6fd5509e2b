@@ -1,0 +1,18 @@
+
+T
+java:S1128"7Remove this unused import 'java.awt.event.ActionEvent'.(Úù“‘8³Ã©Û.
+Z	java:S106C"9Replace this use of System.out or System.err by a logger.(³Ì¥õÿÿÿÿÿ8ıÂßÛ.
+F
+java:S1068")Remove this unused "panel" private field.(›Ã¶‰8Ğ™œÛ.
+c
+java:S10758"ARefactor your code to get this URI from a customizable parameter.(Â»âùÿÿÿÿ8†÷ÁÛ.
+X
+java:S1068"6Remove this unused "firefoxRadioButton" private field.(¥ÈÁúÿÿÿÿ8çÉÛ.
+t
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(˜’£ÿÿÿÿÿ8¬ ÓÛ.
+J
+java:S1481"(Remove this unused "ret" local variable.(îûÔ‹ÿÿÿÿÿ8³Ã©Û.
+U
+java:S1068"3Remove this unused "edgeRadioButton" private field.(–¤êäøÿÿÿÿ8äêÛ.
+W
+java:S1128":Remove this unused import 'java.awt.event.ActionListener'.(Ìä¹8³Ã©Û.

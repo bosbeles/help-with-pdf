@@ -1,18 +1,24 @@
 
-T
-java:S1128"7Remove this unused import 'java.awt.event.ActionEvent'.(Úù“‘8³Ã©Û.
-Z	java:S106C"9Replace this use of System.out or System.err by a logger.(³Ì¥õÿÿÿÿÿ8ıÂßÛ.
-F
-java:S1068")Remove this unused "panel" private field.(›Ã¶‰8Ğ™œÛ.
-c
-java:S10758"ARefactor your code to get this URI from a customizable parameter.(Â»âùÿÿÿÿ8†÷ÁÛ.
-X
-java:S1068"6Remove this unused "firefoxRadioButton" private field.(¥ÈÁúÿÿÿÿ8çÉÛ.
-t
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(˜’£ÿÿÿÿÿ8¬ ÓÛ.
+L
+java:S3740"/Provide the parametrized type for this generic.(°ØÛô8³µ“ëÜ.
+L
+java:S37404"/Provide the parametrized type for this generic.(Ìßë­8å¨ªëÜ.
+^
+java:S1075#"ARefactor your code to get this URI from a customizable parameter.(çÇ·Ú8ƒóºëÜ.
+Y
+java:S1068"7Remove this unused "chromiumRadioButton" private field.(Íë…¦ÿÿÿÿÿ8ä„ÀëÜ.
+J	java:S108M")Either remove or fill this block of code.(±Ÿ—±ÿÿÿÿÿ8Àå†ìÜ.
+M
+java:S1068"+Remove this unused "process" private field.(¢Óúûúÿÿÿÿ8ä„ÀëÜ.
+O
+java:S1481>"-Remove this unused "bookmark" local variable.(ñÆîÉÿÿÿÿÿ8—­ëÜ.
+I
+java:S1481I",Remove this unused "pdfFile" local variable.(É²‚ı8Ø®‚ìÜ.
+N
+java:S16121",Replace this lambda with a method reference.(ŸëÖùÿÿÿÿ8¡â÷ëÜ.
+I
+java:S1481=",Remove this unused "pdfFile" local variable.(É²‚ı8Ñ¯ëÜ.
 J
-java:S1481"(Remove this unused "ret" local variable.(îûÔ‹ÿÿÿÿÿ8³Ã©Û.
-U
-java:S1068"3Remove this unused "edgeRadioButton" private field.(–¤êäøÿÿÿÿ8äêÛ.
-W
-java:S1128":Remove this unused import 'java.awt.event.ActionListener'.(Ìä¹8³Ã©Û.
+java:S1481("(Remove this unused "ret" local variable.(îûÔ‹ÿÿÿÿÿ8³Ã©Û.
+F
+java:S1068")Remove this unused "panel" private field.(›Ã¶‰8Ğ™œÛ.

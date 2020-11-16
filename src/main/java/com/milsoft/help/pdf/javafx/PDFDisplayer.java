@@ -203,10 +203,10 @@ public class PDFDisplayer {
         //webView.getStylesheets().add("/com/dansoftware/pdfdisplayer/base.css");
 
         WebEngine engine = webView.getEngine();
-        String url = getClass().getResource("/pdfjs/web/viewer.html").toExternalForm() + "#page=" + initialPage;
+        String url = getClass().getResource("/pdfjs/web/viewer.html").toExternalForm() + "#page=" + initialPage + "&pagemode=bookmarks";
         //url = "file:///C:/Users/iciftci/Downloads/pdfjs-2.5.207-es5-dist/web/viewer.html#page=" + initialPage;
         if (relativeFileName != null && !relativeFileName.isEmpty()) {
-            url += "?file=" + relativeFileName + "#page=" + initialPage;
+            url += "?file=" + relativeFileName + "#page=" + initialPage + "&pagemode=bookmarks";
         }
         engine.setJavaScriptEnabled(true);
         engine.load(url);

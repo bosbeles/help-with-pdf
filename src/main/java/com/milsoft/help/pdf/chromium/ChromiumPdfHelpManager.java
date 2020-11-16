@@ -23,7 +23,7 @@ public class ChromiumPdfHelpManager extends PdfHelpManager {
         ProcessBuilder pb = new ProcessBuilder();
         String chromePath = chromiumExecutable.getAbsolutePath();
         String pdfString = helpFile.getFile().getAbsolutePath()
-                + (page == null ? "" : "#page=" + page);
+                + (page == null ? "" : "#page=" + page + "&pagemode=bookmarks");
         pb.command(chromePath, "--app=" + pdfString);
 
 

@@ -16,7 +16,7 @@ public class Main {
 
     private static void test() {
         FlatDarkLaf.install();
-        JFrame frame = new JFrame();
+        JFrame frame = new JFrame("Help Test App");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 

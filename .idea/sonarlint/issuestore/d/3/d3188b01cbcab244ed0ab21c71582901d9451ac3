@@ -1,11 +1,10 @@
 
-S
-java:S18544"7Remove this useless assignment to local variable "pdf".(¡Óãx8´Ë¥äÜ.
-i
-java:S3252"LUse static access with "javax.swing.WindowConstants" for "DISPOSE_ON_CLOSE".(×Ð‘÷8Ä‡¡äÜ.
-X	java:S125,"<This block of commented-out lines of code should be removed.(»ŽÃâ8Ù«§äÜ.
-]	java:S125/"<This block of commented-out lines of code should be removed.(ÓüÒýúÿÿÿÿ8´Ë¥äÜ.
-
-java:S14888"]Immediately return this expression instead of assigning it to the temporary variable "scene".(¢’öýÿÿÿÿ8Çÿ¦äÜ.
-D
-java:S14814"(Remove this unused "pdf" local variable.(¡Óãx8´Ë¥äÜ.
+X	java:S1250"<This block of commented-out lines of code should be removed.(©¶†Ç8ŒˆÐìÜ.
+k
+java:S3252"IUse static access with "javax.swing.WindowConstants" for "HIDE_ON_CLOSE".(‡ÞÁ¾ýÿÿÿÿ8ÆšäéÜ.
+t
+java:S3077"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(üï8áàéÜ.
+N
+java:S1172",Remove this unused method parameter "owner".(ÓÒßøÿÿÿÿ8ÆšäéÜ.
+I
+java:S1602%",Remove useless curly braces around statement(ÃÉþ©8ÆÛêìÜ.

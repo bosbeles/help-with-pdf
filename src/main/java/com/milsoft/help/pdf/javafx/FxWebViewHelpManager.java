@@ -13,10 +13,11 @@ import java.io.IOException;
 
 public class FxWebViewHelpManager extends PdfHelpManager {
 
-    private volatile boolean initialized = false;
+    private volatile String lastHelpFile = null;
     private volatile PDFDisplayer displayer;
     private final JFXPanel fxPanel;
     private final JFrame frame;
+
 
     public FxWebViewHelpManager(JFrame owner) {
         frame = new JFrame("Help");
@@ -30,8 +31,9 @@ public class FxWebViewHelpManager extends PdfHelpManager {
     protected void open(HelpFile helpFile, Integer page) {
         frame.setVisible(true);
         int pageNo = page == null ? 1 : page;
-        if (!initialized) {
-            Platform.runLater(() -> initFX(fxPanel, helpFile.getFile(), page));
+
+        if (lastHelpFile == null || !lastHelpFile.equals(helpFile.getFileKey())) {
+            Platform.runLater(() -> initFX(fxPanel, helpFile, page));
         }
         else {
             Platform.runLater(() -> {
@@ -41,12 +43,12 @@ public class FxWebViewHelpManager extends PdfHelpManager {
 
     }
 
-    private void initFX(JFXPanel fxPanel, File file, Integer page) {
+    private void initFX(JFXPanel fxPanel, HelpFile file, Integer page) {
 
         displayer = new PDFDisplayer(page);
         try {
             //displayer.displayPdf(file.getName() + "#page=" + page);
-            displayer.displayPdf(file);
+            displayer.displayPdf(file.getFile());
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -54,7 +56,8 @@ public class FxWebViewHelpManager extends PdfHelpManager {
         Scene scene = new Scene(stack, 960, 600);
 
         fxPanel.setScene(scene);
-        initialized = true;
+
+        lastHelpFile = file.getFileKey();
     }
 
 }

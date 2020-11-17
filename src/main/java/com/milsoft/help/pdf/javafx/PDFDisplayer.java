@@ -200,7 +200,7 @@ public class PDFDisplayer {
         setVisibilityOf("openFile", false);
         WebView webView = new WebView();
         webView.setContextMenuEnabled(false);
-        //webView.getStylesheets().add("/com/dansoftware/pdfdisplayer/base.css");
+        webView.getStylesheets().add("/css/base.css");
 
         WebEngine engine = webView.getEngine();
         String url = getClass().getResource("/pdfjs/web/viewer.html").toExternalForm() + "#page=" + initialPage + "&pagemode=bookmarks";
@@ -228,7 +228,7 @@ public class PDFDisplayer {
 
 
                                     engine.executeScript("console.log = function(message){ try {java.log(message);} catch(e) {} };");
-                                    String customScript = new Scanner(getClass().getResourceAsStream("/custom.js"), "UTF-8")
+                                    String customScript = new Scanner(getClass().getResourceAsStream("/js/custom.js"), "UTF-8")
                                             .useDelimiter("\\A")
                                             .next();
                                     engine.executeScript(customScript);

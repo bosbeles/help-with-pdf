@@ -26,3 +26,7 @@ K
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+O
+src/main/resources/css/base.css,a\1\a167517b41b7078a78f61a460663961527482d44
+O
+src/main/resources/js/custom.js,0\5\0513e4ff5ac2817ff149d587f2dd07b28ca4d082

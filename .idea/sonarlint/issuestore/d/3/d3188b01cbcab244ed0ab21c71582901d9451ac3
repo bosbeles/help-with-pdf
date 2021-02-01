@@ -1,10 +1,12 @@
 
-X	java:S1250"<This block of commented-out lines of code should be removed.(©¶†Ç8ŒˆĞìÜ.
+I
+java:S1602'",Remove useless curly braces around statement(ÃÉş©8ÆÛêìÜ.
+N
+java:S1172",Remove this unused method parameter "owner".(ÓÒßøÿÿÿÿ8ÆšäéÜ.
+X	java:S1252"<This block of commented-out lines of code should be removed.(©¶†Ç8ŒˆĞìÜ.
 k
-java:S3252"IUse static access with "javax.swing.WindowConstants" for "HIDE_ON_CLOSE".(‡ŞÁ¾ıÿÿÿÿ8ÆšäéÜ.
+java:S3252"IUse static access with "javax.swing.WindowConstants" for "HIDE_ON_CLOSE".(‡ŞÁ¾ıÿÿÿÿ8ÆšäéÜ.
+F
+java:S1128")Remove this unused import 'java.io.File'.(†Ğ¥Å8Íˆö¦İ.
 t
 java:S3077"WUse a thread-safe type; adding "volatile" is not enough to make this field thread-safe.(üï8áàéÜ.
-N
-java:S1172",Remove this unused method parameter "owner".(ÓÒßøÿÿÿÿ8ÆšäéÜ.
-I
-java:S1602%",Remove useless curly braces around statement(ÃÉş©8ÆÛêìÜ.

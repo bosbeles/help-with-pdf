@@ -1,24 +1,30 @@
 
-L
-java:S3740"/Provide the parametrized type for this generic.(°ØÛô8³µ“ëÜ.
-L
-java:S37404"/Provide the parametrized type for this generic.(Ìßë­8å¨ªëÜ.
 ^
-java:S1075#"ARefactor your code to get this URI from a customizable parameter.(çÇ·Ú8ƒóºëÜ.
-Y
-java:S1068"7Remove this unused "chromiumRadioButton" private field.(Íë…¦ÿÿÿÿÿ8ä„ÀëÜ.
-J	java:S108M")Either remove or fill this block of code.(±Ÿ—±ÿÿÿÿÿ8Àå†ìÜ.
-M
-java:S1068"+Remove this unused "process" private field.(¢Óúûúÿÿÿÿ8ä„ÀëÜ.
-O
-java:S1481>"-Remove this unused "bookmark" local variable.(ñÆîÉÿÿÿÿÿ8—­ëÜ.
-I
-java:S1481I",Remove this unused "pdfFile" local variable.(É²‚ı8Ø®‚ìÜ.
+java:S1075$"ARefactor your code to get this URI from a customizable parameter.(çÇ·Ú8€êº§İ.
+o	java:S100n"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–­Œßúÿÿÿÿ8€çÉ§İ.
+q
+java:S1450"TRemove the "panel" field and declare it as a local variable in the relevant methods.(›Ã¶‰8€çÉ§İ.
+R
+java:S3740¨"/Provide the parametrized type for this generic.(¥½Êıøÿÿÿÿ8€çÉ§İ.
 N
-java:S16121",Replace this lambda with a method reference.(ŸëÖùÿÿÿÿ8¡â÷ëÜ.
+java:S16122",Replace this lambda with a method reference.(ŸëÖùÿÿÿÿ8€êº§İ.
+L
+java:S37405"/Provide the parametrized type for this generic.(Ìßë­8€êº§İ.
 I
-java:S1481=",Remove this unused "pdfFile" local variable.(É²‚ı8Ñ¯ëÜ.
+java:S1481>",Remove this unused "pdfFile" local variable.(É²‚ı8€êº§İ.
+I
+java:S1481J",Remove this unused "pdfFile" local variable.(É²‚ı8€êº§İ.
+„
+java:S1450"bRemove the "chromiumRadioButton" field and declare it as a local variable in the relevant methods.(Íë…¦ÿÿÿÿÿ8€çÉ§İ.
+{
+java:S1171`"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ8€çÉ§İ.
+O
+java:S1481?"-Remove this unused "bookmark" local variable.(ñÆîÉÿÿÿÿÿ8€êº§İ.
+M
+java:S1068"+Remove this unused "process" private field.(¢Óúûúÿÿÿÿ8€êº§İ.
+J	java:S108N")Either remove or fill this block of code.(±Ÿ—±ÿÿÿÿÿ8€êº§İ.
 J
-java:S1481("(Remove this unused "ret" local variable.(îûÔ‹ÿÿÿÿÿ8³Ã©Û.
-F
-java:S1068")Remove this unused "panel" private field.(›Ã¶‰8Ğ™œÛ.
+java:S1481)"(Remove this unused "ret" local variable.(îûÔ‹ÿÿÿÿÿ8€êº§İ.
+p	java:S100É"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‘ ¨úúÿÿÿÿ8€çÉ§İ.
+L
+java:S3740"/Provide the parametrized type for this generic.(°ØÛô8€êº§İ.
